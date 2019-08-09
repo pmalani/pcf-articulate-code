@@ -6,7 +6,7 @@ applications:
 #  host: articulate-jl
   instances: 1
   buildpack: java_buildpack
-  stack: cflinuxfs2
+  stack: cflinuxfs3
   env:
     JAVA_OPTS: -Xss228k
   services:
